@@ -120,17 +120,17 @@ O robots.txt irá instruir os robôs de busca sobre o que está acessível ou n�
 Eventualmente queremos que algumas páginas do nosso site não sejam indexadas. Por exemplo, no site da Casa do Código, não queremos que os buscadores indexem a página do carrinho de compras, já que não há nada útil ali.
 Para isso, podemos criar o arquivo robots.txt no nosso domínio, indicando que o carrinho de compras deve ser desabilitado da indexação:
 
-'User-agent: *'
-'Disallow: /cart'
+          User-agent: *
+          Disallow: /cart
 Com isso, estamos falando que para qualquer User-agent (indicado pelo *), ou seja, qualquer buscador, o endereço /cart deve ser desabilitado da indexação e não deve jamais aparecer nos resultados da busca do usuário. Caso você queira bloquear apenas um buscador específico, basta especificá-lo no User-agent, como:
 
-'User-agent: Googlebot'
-'Disallow: /cart'
+          User-agent: Googlebot
+          Disallow: /cart
 
 É possível também fazer o bloqueio de um grupo de páginas específicas, dado um trecho em comum da URL:
 
-'User-agent: *'
-'Disallow: /*.pdf$'
+          User-agent: *
+          Disallow: /*.pdf$
 Nesse caso estamos falando que todos os arquivos (indicado pelo *) que contêm .pdfno seu final (indicado pelo $) não devem ser indexados.
 Uma das linhas que você deve colocar no robots.txt é a indicação do mapa do seu site, dessa forma os buscadores têm uma dica de como eles poderão fazer o crawling do seu site e por quais páginas devem passar.
 
@@ -176,5 +176,6 @@ Em seguida, basta indicar dentro de cada sitemap quais são as suas páginas atr
 
           <!-- outras páginas -->
         </urlset>
+        
 Usando o robots.txt em conjunto com o sitemaps.xml, você pode controlar melhor como os indexadores passarão pelo seu site.
 
