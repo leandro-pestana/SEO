@@ -5,8 +5,8 @@ Otimização de Sites é o conjunto de estratégias com o objetivo de potenciali
 Googlebot \(Spiders\) é o robô de rastreamento da Web do Google (também chamado de "indexador"). O rastreamento é o processo pelo qual o Googlebot descobre páginas novas e atualizadas para serem incluídas no índice do Google.
 
 
-[Briefing e Planejamento](briefing.md)
-[Técnicas do SEO](tecnicas.md)
+- [_Briefing e Planejamento_](Briefing.md)
+- [_Técnicas do SEO_](tecnicas.md)
 
 
 ## Critérios de classificação de um website
