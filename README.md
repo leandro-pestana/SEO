@@ -1,12 +1,12 @@
 # SEO
 Otimização de Sites é o conjunto de estratégias com o objetivo de potencializar e melhorar o posicionamento de um site nas páginas de resultados naturais (orgânicos) nos sites de busca gerando conversões, sejam elas, um lead, uma compra, um envio de formulário, agendamento de consulta e outros.
 
+- [Briefing e Planejamento](Briefing.md)
+- [Técnicas do SEO](tecnicas.md)
+- [Link Building](link-building.md)
+
 ## Spiders
 Googlebot \(Spiders\) é o robô de rastreamento da Web do Google (também chamado de "indexador"). O rastreamento é o processo pelo qual o Googlebot descobre páginas novas e atualizadas para serem incluídas no índice do Google.
-
-
-- [_Briefing e Planejamento_](Briefing.md)
-- [_Técnicas do SEO_](tecnicas.md)
 
 
 ## Critérios de classificação de um website
